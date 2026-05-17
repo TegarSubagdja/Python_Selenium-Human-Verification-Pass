@@ -1,0 +1,4 @@
+Start : "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\selenium_profile"
+Stop : taskkill /F /IM chrome.exe
+Stop :taskkill /F /IM chromedriver.exe
+Cek : netstat -ano | findstr :9222
